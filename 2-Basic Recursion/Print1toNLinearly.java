@@ -7,6 +7,7 @@ public class Print1toNLinearly {
         //here we are applying backtracking
         System.out.print(n + " ");
     }
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
