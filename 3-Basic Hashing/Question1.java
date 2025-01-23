@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 	
 // Counting frequencies of array elements
-public class Question1 {
+public class Question1 { 
     public static void main(String[] args) {
         // int[] arr = {2, 3, 2, 3, 5};
         int[] arr = {3,3,3,3,3};
