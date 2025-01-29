@@ -21,8 +21,5 @@ public class RecursiveBubbleSort {
         int[] arr = {3,2,3,4,2,1,3,4,54,22,3,4232};
         bubbleSort(arr, 0, arr.length-1);
         System.out.println(Arrays.toString(arr));
-
-        
-
     }
 }
