@@ -7,7 +7,7 @@ public class SecondSmallestInAnArray {
             if (arr[i] < smallest) {
                 secondSmallest = smallest;
                 smallest = arr[i];
-            }else if (arr[i] > smallest && arr[i] < secondSmallest) {
+            } else if (arr[i] > smallest && arr[i] < secondSmallest) {
                 secondSmallest = arr[i];
             }
         }
