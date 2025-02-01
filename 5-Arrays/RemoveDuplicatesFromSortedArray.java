@@ -16,7 +16,7 @@ public class RemoveDuplicatesFromSortedArray {
         System.out.println(Arrays.toString(arr));
         System.out.println(i);
         // using for loop
-        int[] arr2 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 9, 10, 10, 10, 10 };
+        int[] arr2 = { 1, 2, 3, 4, 5, 6, 7, 8, 9};
         int l = 0;
         for (int k = l + 1; k < arr2.length; k++) {
             if (arr2[l] != arr2[k]) {
