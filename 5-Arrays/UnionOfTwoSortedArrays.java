@@ -6,8 +6,8 @@ import java.util.TreeSet;
 public class UnionOfTwoSortedArrays {
     public static void main(String[] args) {
         // bruteForce using set data structure
-        int[] arr1 = { 1, 2, 2, 4, 5, 5, 5, 6, 7, 8 };
-        int[] arr2 = { -3, -2, -1, 1, 2, 3, 4, 6, 7 };
+        int[] arr1 = { 1, 2, 2, 4, 5 };
+        int[] arr2 = { 1, 2, 3 };
         int size1 = arr1.length;
         int size2 = arr2.length;
         // imp to use tree set to maintain the order
@@ -38,14 +38,14 @@ public class UnionOfTwoSortedArrays {
                 j++;
             }
         }
-        while(i<size1){
-            if(ans.isEmpty() || ans.getLast() != arr1[i]){
+        while (i < size1) {
+            if (ans.isEmpty() || ans.getLast() != arr1[i]) {
                 ans.add(arr1[i]);
             }
             i++;
         }
-        while(j<size2){
-            if(ans.isEmpty() || ans.getLast() != arr2[j]){
+        while (j < size2) {
+            if (ans.isEmpty() || ans.getLast() != arr2[j]) {
                 ans.add(arr2[j]);
             }
             j++;
