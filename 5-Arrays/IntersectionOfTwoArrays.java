@@ -24,6 +24,7 @@ public class IntersectionOfTwoArrays {
                 // if (temp.isEmpty() || temp.getLast() != arr1[i]) {
                 // temp.add(arr1[i]);
                 // }
+                // for non unique result
                 temp.add(arr1[i]);
                 i++;
                 j++;
