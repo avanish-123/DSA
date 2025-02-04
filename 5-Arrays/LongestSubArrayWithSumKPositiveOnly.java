@@ -1,4 +1,4 @@
-public class LongestSubStringWithSumKPositiveOnly {
+public class LongestSubArrayWithSumKPositiveOnly {
     public static void main(String[] args) {
         // brute force
         int arr[] = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
