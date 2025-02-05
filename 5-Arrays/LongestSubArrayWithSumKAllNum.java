@@ -23,6 +23,5 @@ public class LongestSubArrayWithSumKAllNum {
             }
         }
         System.out.println(maxLength);
-        System.out.println(mpp);
     }
 }
