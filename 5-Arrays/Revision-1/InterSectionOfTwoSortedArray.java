@@ -10,6 +10,8 @@ public class InterSectionOfTwoSortedArray {
         int j = 0;
         ArrayList<Integer> Result = new ArrayList<>();
         while (i < sizeOne && j < sizeTwo) {
+            // its only for intersection with unique element 
+            // for non unique comment both  while loop
             while (i < sizeOne - 1 && arr1[i] == arr1[i + 1])
                 i++;
             while (j < sizeTwo - 1 && arr2[j] == arr2[j + 1])
