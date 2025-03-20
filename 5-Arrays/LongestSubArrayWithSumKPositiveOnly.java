@@ -1,7 +1,7 @@
 public class LongestSubArrayWithSumKPositiveOnly {
     public static void main(String[] args) {
         // brute force
-        int arr[] = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+        int arr[] = { 1, 2, 3, 1, 1, 1, 1, 4, 2, 3 };
         int k = 10;
         int arrSize = arr.length;
         int length = 0;
