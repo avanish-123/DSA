@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 public class LongestConsecutiveSequence {
     public static void main(String[] args) {
+        // better TC(nLogn) sc O(1) this is better no best coz we are changing the given array
         int []nums = { 15, 6, 2, 1, 16, 4, 2, 29, 9, 12, 8, 5, 14, 21, 8, 12, 17, 16, 6, 26, 3  };
         Arrays.sort(nums);
         System.out.println(Arrays.toString(nums));
