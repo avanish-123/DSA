@@ -1,2 +1,5 @@
-public class SetMatrixZeros {   
+public class SetMatrixZeros { 
+    public static void main(String[] args) {
+        // leter
+    }  
 }
